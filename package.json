@@ -1,0 +1,12 @@
+echo { > package.json
+echo   "name": "tamayo-inventory-scraper", >> package.json
+echo   "version": "1.0.0", >> package.json
+echo   "type": "commonjs", >> package.json
+echo   "dependencies": { >> package.json
+echo     "apify": "^3.3.0", >> package.json
+echo     "crawlee": "^3.7.0" >> package.json
+echo   }, >> package.json
+echo   "scripts": { >> package.json
+echo     "start": "node main.js" >> package.json
+echo   } >> package.json
+echo } >> package.json
