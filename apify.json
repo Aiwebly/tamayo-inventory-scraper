@@ -1,0 +1,8 @@
+echo { > apify.json
+echo   "name": "tamayo-inventory-scraper", >> apify.json
+echo   "version": "0.1", >> apify.json
+echo   "buildTag": "latest", >> apify.json
+echo   "env": { >> apify.json
+echo     "NODE_VERSION": "18" >> apify.json
+echo   } >> apify.json
+echo } >> apify.json
